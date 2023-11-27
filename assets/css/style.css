@@ -1,6 +1,63 @@
-.item {
-    min-height: 145px;
-    padding: 46px;
+.container {
+    padding-top: 100px;
 }
 
-.home-work {}
+h2 {
+    font-size: 44.8px;
+}
+
+.item {
+    padding: 46px;
+    min-height: 53px;
+    gap: 20px;
+}
+
+.item:not(:last-child) {
+    border-top: 1px solid #ccc;
+}
+
+.item:last-child {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.home-work {
+    width: 16.7%;
+}
+
+.number {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    width: 104px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-content {
+    width: 55.7%;
+}
+
+.magnetic-section {
+    /*transform: translate3d(-32%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-4deg) skew(0deg, 0deg);*/
+    width: 17%;
+}
+
+.home-arrow {
+    width: 10.6%;
+}
+
+img {
+    /*transform: translate3d(0px, -0.01%, 0px) scale3d(0.6, 0.6, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)*/
+}
